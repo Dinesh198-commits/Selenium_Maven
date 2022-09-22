@@ -2,6 +2,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  <parameter name = "uname" value="kumarindian777@gmail.com"/>
+  <parameter name = "pwd" value="xyzzyz"/>
+  
     <classes>
       <class name="testcases.SimplelearnLoginTest"/>
     </classes>
