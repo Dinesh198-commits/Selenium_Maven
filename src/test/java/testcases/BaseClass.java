@@ -1,3 +1,4 @@
+
 package testcases;
 
 import java.io.FileInputStream;
@@ -19,7 +20,7 @@ import com.relevantcodes.extentreports.ExtentTest;
 
 
 public class BaseClass {
-	WebDriver driver;
+    public static WebDriver driver;
 	XSSFWorkbook wbook;
 	XSSFSheet    sheet;
 	

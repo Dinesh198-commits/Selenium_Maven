@@ -3,7 +3,7 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <parameter name="uname" value="kumarindian777@gmail.com"/>
-    <parameter name="pwd" value="*Dine2102*"/>
+    <parameter name="pwd" value="xyzzyz"/>
     <classes>
       <class name="testcases.SimplelearnLoginTest">
         <methods>

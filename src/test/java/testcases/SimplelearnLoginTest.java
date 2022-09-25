@@ -3,11 +3,13 @@ package testcases;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;
 
+@Listeners(ListenerExample.class)
 public class SimplelearnLoginTest extends BaseClass {
 	@Test
 	public void Test1() throws InterruptedException {
@@ -25,6 +27,7 @@ public class SimplelearnLoginTest extends BaseClass {
 		Assert.assertTrue(Error.isDisplayed());
 		Assert.assertEquals(Actual_Error,Expected_Error);
 		}
+	
 	@Test
 	@Parameters({"uname","pwd"})
 	public void Test2(String Username,String Password) throws InterruptedException {

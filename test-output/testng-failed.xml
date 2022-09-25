@@ -6,9 +6,9 @@
       <class name="testcases.SimplelearnLoginTest">
         <methods>
           <include name="DataClean"/>
+          <include name="Test1"/>
           <include name="teardown"/>
           <include name="DataSetUp"/>
-          <include name="Test2"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testcases.SimplelearnLoginTest -->
